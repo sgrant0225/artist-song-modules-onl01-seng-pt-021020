@@ -11,7 +11,8 @@ class Artist
   @@artists = []
 
   def initialize
-    @@artists << self
+    #@@artists << self
+    super #use this code in the M::IM modules initialize method
     @songs = []
   end
 
