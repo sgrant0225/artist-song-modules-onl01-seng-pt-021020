@@ -33,7 +33,7 @@ class Song
     @artist = artist
   end
 
-  # def to_param
+  # def to_param #re-defined this in the Paramable Module
   #   name.downcase.gsub(' ', '-')
   # end
 end
